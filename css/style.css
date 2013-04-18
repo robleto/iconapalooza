@@ -1,0 +1,59 @@
+/* Icon Font */
+@font-face {
+font-family: 'social-buttons';
+src: url('http://www.robleto.com//assets/fonts/social-buttons.eot');
+src: url('http://www.robleto.com//assets/fonts/social-buttons.eot?#iefix') format('embedded-opentype'),
+url('http://www.robleto.com//assets/fonts/social-buttons.woff') format('woff'),
+url('http://www.robleto.com//assets/fonts/social-buttons.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+/* Grey Background */
+.styled-unordered-list {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+}
+.styled-unordered-list li {
+  display: inline-block;
+}
+.styled-unordered-list li a {
+  background: none repeat scroll 0 0 #BBBBBB;
+  border-radius: 100px 100px 100px 100px;
+  color: #FFFFFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  margin-left: 5px;
+  text-decoration: none;
+
+}
+.styled-unordered-list li a i {
+  color: #ffffff;
+}
+
+#icon-twitter, #icon-dribbble, #icon-linkedin, #icon-email {
+  font-family: 'social-buttons';
+  font-size: 24px;
+  position: relative;
+  line-height: 0px;
+  font-style: normal;
+  color: #FFFFFF;
+  top: 22px;
+}
+
+.styled-unordered-list li a#twitter:hover { background-color: #00ADE8; }
+.styled-unordered-list li a#dribbble:hover { background-color: #D2396F; }
+.styled-unordered-list li a#linkedin:hover { background-color: #0074AD;}
+.styled-unordered-list li a#email:hover { background-color: #008118; }
+
+
+#icon-twitter:before { content: "t"; }
+#icon-dribbble:before { content: "d"; }
+#icon-linkedin:before { content: "i"; }
+#icon-email:before { content: "e"; }
